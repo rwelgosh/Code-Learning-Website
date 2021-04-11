@@ -1,6 +1,56 @@
 .header {
-    padding: 80px;
     text-align: center;
-    background: #1abc9c;
+    background-color: black;
+    overflow: hidden;
+    padding: 10px;
+}
+
+.links {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    float: left;
     color: white;
+    padding: 7px;
+    padding-left: 12px;
+    padding-right: 12px;
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    border-radius: 4px;
+}
+
+.logo {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.links:hover {
+    background-color: white;
+    color: black;
+}
+
+.logo:hover {
+    color: #39ff14;
+    background-color: black;
+}
+
+.selected{
+    background-color: #39ff14;
+    color: black;
+}
+
+.rightSection {
+    float: right;
+}
+
+@media screen and (max-width: 870px) {
+    .links {
+        float: none;
+        display: block;
+        text-align: left;
+    }
+
+    .rightSection {
+        float: none;
+    }
 }
