@@ -3,3 +3,17 @@ Raymond: Front End Development
 James: Content
 Tomar: Content
 Derpy: Database
+
+-Introductions
+-Assign roles
+-Plan for what needs to be done and by when
+-
+
+
+In order:
+Documentation
+Practice
+Courses
+(special functions)
+About
+Login
